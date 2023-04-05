@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 1px #fff; */
+    font-family: sans-serif;
+}
+body {
+    background-color: #292828;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.play-btn {
+    width: 9rem;
+    height: 9rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.play-btn:hover {
+    opacity: 0.8;
+}
+.wrapper {
+    display: flex;
+}
+.result-holder {
+    width: 60%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.result {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.items-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+.items-wrapper p {
+    margin-top: 1rem;
+}
+.loading-and-reaction {
+    margin-top: 4rem;
+    position: relative;
+}
+.loading-and-reaction img:nth-child(1) {
+    width: 5rem;
+}
+.reaction-img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    transition: 0.2s ease;
+}
+.giphy-embed {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: -1rem;
+    left: 3rem;
+    display: inline;
+    border-radius: 50%;
+    z-index: -1;
+    border: none;
+}
+.loading,
+.thinker {
+    opacity: 0;
+    transition: 0.4s ease;
+}
+.loading.active,
+.thinker.active {
+    opacity: 1;
+}
