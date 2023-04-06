@@ -43,6 +43,7 @@ rock.addEventListener("click", () => {
         "img/sad-cat.png",
         "img/sad-jordan.png",
         "img/sad-pepe-2.png",
+        "img/sad-pepe.png"
     ];
     const imageArray3 = ["img/face.png", "img/pepe-thinking.png"];
     const bully = Math.floor(Math.random() * imageArray.length);
@@ -103,6 +104,7 @@ paper.addEventListener("click", () => {
         "img/sad-cat.png",
         "img/sad-jordan.png",
         "img/sad-pepe-2.png",
+        "img/sad-pepe.png"
     ];
     const imageArray3 = ["img/face.png", "img/pepe-thinking.png"];
     const bully = Math.floor(Math.random() * imageArray.length);
@@ -164,6 +166,7 @@ scissors.addEventListener("click", () => {
         "img/sad-cat.png",
         "img/sad-jordan.png",
         "img/sad-pepe-2.png",
+        "img/sad-pepe.png"
     ];
     const imageArray3 = ["img/face.png", "img/pepe-thinking.png"];
     const bully = Math.floor(Math.random() * imageArray.length);
